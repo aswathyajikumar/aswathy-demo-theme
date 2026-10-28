@@ -1,0 +1,55 @@
+/*
+Theme Name: Aswathy Demo Theme
+Theme URI: https://example.com/
+Author: Aswathy
+Description: A small starter WordPress theme for practising Git commits, branches, and pushes.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+Text Domain: aswathy-demo-theme
+*/
+
+/* Basic theme styles */
+:root {
+    --brand-color: #2457c5;
+    --text-color: #222;
+    --background-color: #f5f7fb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+.site-header,
+.site-footer {
+    padding: 24px;
+    color: #fff;
+    background: var(--brand-color);
+    text-align: center;
+}
+
+.site-main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+a {
+    color: var(--brand-color);
+}
+
+.post-card {
+    padding: 18px 0;
+    border-bottom: 1px solid #ddd;
+}
